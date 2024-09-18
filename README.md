@@ -1,0 +1,2 @@
+# pkgTemplate
+R Package Template
