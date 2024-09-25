@@ -1,6 +1,6 @@
 library(testthat)
-library(epiplus)
+library(pkg-name)
 
-test_check("epiplus")
+test_check("pkg-name")
 
 # devtools::test()
