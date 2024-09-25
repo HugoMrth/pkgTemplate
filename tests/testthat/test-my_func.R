@@ -3,12 +3,11 @@ test_that("Args are check properly :",  {
 })
 
 test_that("Output are of the correct type :", {
-  expect_type(my_func, numeric)
+  expect_type(my_func(), numeric)
 })
 
 test_that("Output is equal to :", {
-    expect_true(my_func == 0)
-  }
+    expect_true(my_func() == 0)
 })
 
 test_that("Function runs properly :", {
